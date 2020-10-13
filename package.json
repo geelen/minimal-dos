@@ -7,8 +7,7 @@
     "build": "echo noop",
     "build:fab": "npm run build && npm run fab:build",
     "fab:build": "fab build",
-    "fab:serve": "fab serve fab.zip",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fab:serve": "fab serve fab.zip"
   },
   "repository": {
     "type": "git",
