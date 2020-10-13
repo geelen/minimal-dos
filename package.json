@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "echo noop",
+    "build:fab": "npm run build && npm run fab:build",
+    "fab:build": "fab build",
+    "fab:serve": "fab serve fab.zip",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/geelen/minimal-dos/issues"
   },
-  "homepage": "https://github.com/geelen/minimal-dos#readme"
+  "homepage": "https://github.com/geelen/minimal-dos#readme",
+  "devDependencies": {
+    "@fab/actions": "^1.0.0-rc.7",
+    "@fab/cli": "^1.0.0-rc.7",
+    "@fab/input-static": "^1.0.0-rc.7",
+    "@fab/plugin-render-html": "^1.0.0-rc.7",
+    "@fab/plugin-rewire-assets": "^1.0.0-rc.7",
+    "@fab/server": "^1.0.0-rc.7"
+  }
 }
