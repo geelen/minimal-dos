@@ -8,7 +8,7 @@
     "build:fab": "npm run build && npm run fab:build",
     "fab:build": "fab build",
     "fab:serve": "fab serve fab.zip",
-    "test": "cat ./fab/build/server.js"
+    "test": "cat ./.fab/build/server.js"
   },
   "repository": {
     "type": "git",
